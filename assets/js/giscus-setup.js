@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "c2-h1/pmpia",
+    "data-repo": "pmpia/pmpia.github.io",
     "data-repo-id": "",
     "data-category": "",
     "data-category-id": "",
