@@ -16,7 +16,7 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %}">
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %}{% if page.url == '/' %} is-home{% endif %}">
     <!-- Header -->
     {% include header.liquid %}
 
