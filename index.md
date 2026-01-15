@@ -163,17 +163,6 @@ nav: false
     </div>
   </section>
 
-  <section class="home-section home-cta-band home-reveal">
-    <div>
-      <h2>프로젝트 관리 역량을 지금 바로 강화하세요</h2>
-      <p>교육 일정, 과정 상세, 대상별 추천 커리큘럼을 확인할 수 있습니다.</p>
-    </div>
-    <div class="home-cta home-cta--compact">
-      <a class="home-btn home-btn--primary" href="{{ '/classes/' | relative_url }}">교육 일정 확인</a>
-      <a class="home-btn home-btn--ghost" href="{{ '/instructors/' | relative_url }}">강사진 소개</a>
-    </div>
-  </section>
-
   <section class="home-section home-community home-reveal">
     <h2>커뮤니티 &amp; 소셜</h2>
     <p class="home-lead home-lead--muted">

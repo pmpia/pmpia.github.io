@@ -57,7 +57,7 @@ table.table a {
 }
 
 blockquote {
-  background: var(--global-bg-color);
+  background: var(--global-block-bg-color);
   border-left: 5px solid var(--global-theme-color);
   margin: 1.5em 0;
   padding: 1em;
@@ -487,6 +487,7 @@ ul.task-list input[type="checkbox"] {
 
 // Site bottom block
 .site-bottom {
+    margin-top: 60px; /* Adjust this number to increase/decrease the gap */
   background-color: #1c1c1d;
   color: #9a9a9a;
   font-size: 0.75rem;
