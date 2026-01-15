@@ -168,17 +168,19 @@ nav: false
     <p class="home-lead home-lead--muted">
       프로젝트 관리 실무자 네트워크와 최신 정보를 공유하는 커뮤니티 채널을 운영합니다.
     </p>
-    <a href="https://cafe.naver.com/pmplaza" target="_blank" rel="noopener noreferrer">
-      <i class="fa-solid fa-mug-hot fa-sm"></i> 프로젝트 관리 전문 네이버카페
-    </a>
-    <a href="https://cafe.naver.com/prince2group" target="_blank" rel="noopener noreferrer">
-      <i class="fa-solid fa-mug-hot fa-sm"></i> PRINCE2 전문 네이버카페
-    </a>
-    <a href="https://www.facebook.com/pmpia" target="_blank" rel="noopener noreferrer">
-      <i class="fa-brands fa-facebook fa-sm"></i> PMPIA Facebook
-    </a>
-    <a href="https://www.instagram.com/pmpia/" target="_blank" rel="noopener noreferrer">
-      <i class="fa-brands fa-instagram fa-sm"></i> PMPIA Instagram
-    </a>
+    <div class="home-cta home-cta--compact">
+      <a class="home-btn home-btn--ghost" href="https://cafe.naver.com/pmplaza" target="_blank" rel="noopener noreferrer">
+        <i class="fa-solid fa-mug-hot fa-sm"></i> 프로젝트 관리 전문 네이버카페
+      </a>
+      <a class="home-btn home-btn--ghost" href="https://cafe.naver.com/prince2group" target="_blank" rel="noopener noreferrer">
+        <i class="fa-solid fa-mug-hot fa-sm"></i> PRINCE2 전문 네이버카페
+      </a>
+      <a class="home-btn home-btn--ghost" href="https://www.facebook.com/pmpia" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-facebook fa-sm"></i> PMPIA Facebook
+      </a>
+      <a class="home-btn home-btn--ghost" href="https://www.instagram.com/pmpia/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram fa-sm"></i> PMPIA Instagram
+      </a>
+    </div>
   </section>
 </div>

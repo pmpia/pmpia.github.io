@@ -144,7 +144,6 @@ plugins:
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-regex-replace
-  - jekyll-scholar
   - jekyll-sitemap
   - jekyll-tabs
   - jekyll-terser
