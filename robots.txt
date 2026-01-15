@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://c2-h1.github.io/pmpia/sitemap.xml
+Sitemap: https://pmpia.com/sitemap.xml
