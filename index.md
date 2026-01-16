@@ -52,7 +52,6 @@ nav: false
         </div>
         <div class="home-hero__card home-reveal home-reveal--delay-3">
           <div class="home-hero__media">
-            <img src="{{ '/assets/img/swchung.jpeg' | relative_url }}" alt="대표 강사 정승원">
             <div>
               <h3>대표 강사 소개</h3>
               <span>정승원 대표 · Peoplecert Ambassador</span><br>
@@ -82,25 +81,6 @@ nav: false
         <h3>검증된 교육 신뢰도</h3>
         <p>25년+ 교육 운영과 국내 주요 기업 100여 곳의 채택 경험으로 검증된 커리큘럼을 제공합니다.</p>
       </div>
-    </div>
-  </section>
-
-  <section class="home-section home-trust home-reveal">
-    <div class="home-trust__card">
-      <span class="home-pill">Peoplecert ATO & AEO</span>
-      <img src="{{ '/assets/img/ATO_certi.jpg' | relative_url }}" alt="Peoplecert ATO 인증서">
-      <p>
-        PRINCE2®, ITIL®, MSP®, MoP®, MoR®, P3O® 등 글로벌 베스트 프랙티스를 운영하는
-        Peoplecert 공인 교육기관으로서 국제 기준을 충족하는 교육 품질을 유지합니다.
-      </p>
-    </div>
-    <div class="home-trust__card">
-      <span class="home-pill">Peoplecert Ambassador</span>
-      <img src="{{ '/assets/img/ambassador.png' | relative_url }}" alt="Peoplecert Ambassador 인증서">
-      <p>
-        Peoplecert Ambassador 프로그램을 통해 글로벌 전문가 네트워크와 최신 지식을 공유하고,
-        국내 프로젝트 관리 커뮤니티 확산에 앞장서고 있습니다.
-      </p>
     </div>
   </section>
 
