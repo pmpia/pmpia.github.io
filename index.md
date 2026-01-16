@@ -9,8 +9,8 @@ nav: false
   <section class="home-hero home-reveal">
     <div class="home-hero__grid">
       <div class="home-hero__content home-reveal home-reveal--delay-1">
-        <div class="home-eyebrow">PMPIA | Project Management Education</div>
-        <h1>프로젝트 성과를 만드는 실무 중심 교육과 컨설팅</h1>
+        <div class="home-eyebrow">PMPIA | PROJECT MANAGEMENT & CONSULTING</div>
+        <h1>DX 시대의 프로젝트 성공을 위한 실무 중심의 교육과 현장 맞춤형 컨설팅</h1>
         <p class="home-lead">
           2010년 설립 이후 25년+ 교육 경험을 축적한 PMPIA는 프로젝트 관리 표준과 현장 실행력을
           동시에 갖춘 전문가 양성을 돕습니다. Peoplecert 공인 교육기관(ATO/AEO) 기반의 체계로
