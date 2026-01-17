@@ -10,11 +10,10 @@ nav: false
     <div class="home-hero__grid">
       <div class="home-hero__content home-reveal home-reveal--delay-1">
         <div class="home-eyebrow">PMPIA | PROJECT MANAGEMENT & CONSULTING</div>
-        <h1>DX 시대의 프로젝트 성공을 위한 실무 중심의 교육과 컨설팅</h1>
+        <h1>성공적 프로젝트 관리를 위한 실무 중심의 교육과 컨설팅</h1>
         <p class="home-lead">
-           25년+ 교육 경험을 축적한 PMPIA는 프로젝트 관리 표준과 현장 실행력을
-          동시에 갖춘 전문가 양성을 돕습니다. Peoplecert 공인 교육기관(ATO/AEO) 기반의 체계로
-          국제 자격과 실무 적용을 함께 준비하세요.
+         피엠피아는 프로젝트 관리, 거버넌스, 리더십, PMO 등 조직 전반에 걸친 실무 중심의 교육과 컨설팅을 통해 개인과 조직이 ‘변화와 가치를 성공적으로 전달하는 역량’을 갖추도록 지원합니다. <br> 
+         25년 이상의 검증된 교육 운영 노하우와 1만 여명 이상의 교육생 배출 실적을 바탕으로, 국내 최고 수준의 프로젝트 관리 교육 기관으로서 실무진의 역량을 고도화하고 기업이 높은 수준의 프로젝트·프로그램·포트폴리오(P3) 거버넌스를 체계적으로 구축·운영할 수 있도록 돕습니다.
         </p>
         <div class="home-cta">
           <a class="home-btn home-btn--primary" href="{{ '/classes/' | relative_url }}">교육 과정 보기</a>
