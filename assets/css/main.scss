@@ -593,6 +593,11 @@ ul li p { margin: 0; }
   color: var(--home-ink);
 }
 
+html[data-theme="dark"] body.is-home .home {
+  --home-ink: #f1f4fa;
+  --home-muted: rgba(241, 244, 250, 0.8);
+}
+
 .home h1,
 .home h2,
 .home h3 {
@@ -613,8 +618,8 @@ ul li p { margin: 0; }
 }
 
 body.is-home .home-hero {
-  --home-ink: #f5f7fb;
-  --home-muted: rgba(245, 247, 251, 0.72);
+  --home-ink: #ffffff;
+  --home-muted: rgba(255, 255, 255, 0.82);
   --home-card: rgba(12, 16, 22, 0.78);
   --home-accent: #9ad4ff;
   --home-accent-strong: #1b5fd0;
@@ -873,6 +878,45 @@ body.is-home .home-hero__card {
   border: 1px solid var(--global-divider-color);
 }
 
+.home-card-grid .home-card {
+  border: 0.4px solid var(--global-divider-color);
+  color: var(--home-accent);
+}
+
+.home-card-grid .home-card--accent {
+  border-top-width: 0.4px;
+  border-top-color: var(--global-divider-color);
+}
+
+.home-card-grid .home-card h3,
+.home-card-grid .home-card p {
+  color: var(--home-accent);
+  font-weight: 700;
+  font-family: inherit;
+}
+
+.home-card-grid .home-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-card-grid .home-card p {
+  font-size: 1.1rem;
+}
+
+.home-card-grid .home-card h3.home-card__title--hero {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--home-accent);
+  font-family: inherit;
+  margin-bottom: 0.5rem;
+}
+
+.home-card-grid .home-card b,
+.home-card-grid .home-card strong {
+  font-weight: 400;
+}
+
 .home-card h3 {
   font-size: 1.3rem;
   margin-bottom: 0.8rem;
@@ -909,6 +953,46 @@ body.is-home .home-hero__card {
   padding: 2.5rem;
   border-radius: var(--home-radius);
   border: 1px solid var(--global-divider-color);
+}
+
+body.is-home .home-programs--blur {
+  --home-ink: #ffffff;
+  --home-muted: rgba(255, 255, 255, 0.82);
+  --home-card: rgba(12, 16, 22, 0.78);
+  --home-accent: #9ad4ff;
+  --home-accent-strong: #1b5fd0;
+  color: var(--home-ink);
+  position: relative;
+  overflow: hidden;
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+body.is-home .home-programs--blur::before {
+  content: "";
+  position: absolute;
+  inset: -40px;
+  background-image: url("../img/course-6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(18px);
+  transform: scale(1.08);
+  z-index: 0;
+  pointer-events: none;
+}
+
+body.is-home .home-programs--blur::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 11, 16, 0.72);
+  z-index: 1;
+  pointer-events: none;
+}
+
+body.is-home .home-programs--blur > * {
+  position: relative;
+  z-index: 2;
 }
 
 .home-programs__grid {

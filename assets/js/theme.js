@@ -253,9 +253,7 @@ let transTheme = () => {
 let determineThemeSetting = () => {
   let themeSetting = localStorage.getItem("theme");
   if (themeSetting != "dark" && themeSetting != "light") {
-    const prefersDark =
-      window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-    themeSetting = prefersDark ? "dark" : "light";
+    themeSetting = "dark";
   }
   return themeSetting;
 };

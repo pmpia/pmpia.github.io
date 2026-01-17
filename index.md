@@ -45,14 +45,8 @@ nav: false
           </ul>
         </div>
         <div class="home-hero__card home-reveal home-reveal--delay-3">
-          <h3>국내외 주요 기관들과 지속적 협력</h3>
-          <div>
-            <ul>
-              <li>국제적 인증기관인 Peoplecert의 공인 교육기관(ATO: Accredited Training Organization)로서 PRINCE2, ITIL 등 다양한 교육을 제공</li>
-              <li>글로벌 프로젝트 관리 전문가 단체인 PMI(Project Management Institute)와 과정개발, 세미나 등 다양한 협업</li>
-              <li>한국생산성본부(KPC)와 프로젝트 관리 분야 교육에 대해 20년 이상의 파트너십</li>
-            </ul>
-          </div>
+          <h3>Peoplecert ATO(Accredited Training Organization)</h3>
+          <p>국제 자격 인증기관인 Peoplecert의 공인교육기관 및 공인시험기관으로 국제적 기준에 부합하는 높은 품질의 교육을 제공합니다.</p>
         </div>
         <div class="home-hero__card home-reveal home-reveal--delay-3">
           <div class="home-hero__media">
@@ -68,22 +62,59 @@ nav: false
   </section>
 
   <section class="home-section home-reveal">
-    <h2>PMPIA 교육의 핵심 가치</h2>
-    <p class="home-lead home-lead--muted">
-      이론이 아닌 적용, 강의가 아닌 워크샵, 표준을 우리 조직에 맞게 재해석하는 힘을 제공합니다.
-    </p>
-    <div class="home-card-grid">
-      <div class="home-card home-card--accent">
-        <h3>Case Study 중심 워크샵</h3>
-        <p>단순 강의가 아닌 실습 기반 워크샵으로, 프로젝트 환경에 맞춘 해결 경험을 축적합니다.</p>
+    <div class="home-programs home-programs--blur">
+      <div class="home-cta home-cta--split">
+        <div>
+          <h2>PMPIA 교육의 핵심 가치</h2>
+          <p class="home-lead home-lead--muted home-lead--compact">
+            25년 노하우의 PMPIA는 글로벌 표준(PMBOK·PRINCE2)을 기반으로 케이스 스터디 중심의 워크샵을 통해, 단순 이론 전달 및 자격 취득을 넘어 현업에 즉시 적용 가능한 실전 프로젝트 관리 솔루션을 제공합니다
+          </p>
+        </div>
       </div>
-      <div class="home-card home-card--accent">
-        <h3>조직 맞춤형 프로세스</h3>
-        <p>의사결정 구조와 성과 지표에 맞는 산출물과 프로세스를 함께 설계합니다.</p>
+      <div class="home-card-grid">
+        <div class="home-card home-card--accent">
+          <h3>단순 이론이 아닌 ‘적용 가능한 프랙티스’를 전달</h3>
+        </div>
+        <div class="home-card home-card--accent">
+          <h3>강의 중심이 아닌 Case Study 기반 워크샵</h3>
+        </div>
+        <div class="home-card home-card--accent">
+          <h3>국제 표준을 ‘우리 방식’으로 해석하는 역량 강화</h3>
+        </div>
+        <div class="home-card home-card--accent">
+          <h3>도구와 기법보다는 리더십과 소통을 강조</h3>
+        </div>
+        <div class="home-card home-card--accent">
+          <h3>다양한 교육 형태로 제공되는 유연한 학습 경험</h3>
+        </div>
+        <div class="home-card home-card--accent">
+          <h3>교육 종료 이후에도 교육생과의 지속적인 교류</h3>
+        </div>
       </div>
-      <div class="home-card home-card--accent">
-        <h3>검증된 교육 신뢰도</h3>
-        <p>25년+ 교육 운영과 국내 주요 기업 100여 곳의 채택 경험으로 검증된 커리큘럼을 제공합니다.</p>
+    </div>
+  </section>
+
+  <section class="home-section home-reveal">
+    <div class="home-programs home-programs--blur">
+      <div class="home-cta home-cta--split">
+        <div>
+          <h2>교육제공방식</h2>
+          <p class="home-lead home-lead--muted home-lead--compact">설명 Text</p>
+        </div>
+      </div>
+      <div class="home-card-grid">
+        <div class="home-card home-card--accent">
+          <h3>오프라인집체교육</h3>
+          <p>설명 Text</p>
+        </div>
+        <div class="home-card home-card--accent">
+          <h3>온라인교육</h3>
+          <p>설명 Text</p>
+        </div>
+        <div class="home-card home-card--accent">
+          <h3>기업위탁교육</h3>
+          <p>설명 Text</p>
+        </div>
       </div>
     </div>
   </section>
@@ -92,9 +123,9 @@ nav: false
     <div class="home-programs">
       <div class="home-cta home-cta--split">
         <div>
-          <h2>교육 과정</h2>
+          <h2>오프라인 집체교육 과정</h2>
           <p class="home-lead home-lead--muted home-lead--compact">
-            실무 과정과 자격 대비 과정을 한 곳에서 확인하세요.
+            피엠피아의 오프라인 집체과정은 한국생산성본부(KPC)와의 20년 이상의 파트너십을 기반으로 프로젝트 관리 실무과정과 PMP, PRINCE2 등 국제자격대비 전문과정을 운영하고 있습니다. 
           </p>
         </div>
         <a class="home-btn home-btn--primary" href="{{ '/classes/' | relative_url }}">전체 과정 보기</a>
