@@ -45,9 +45,14 @@ nav: false
           </ul>
         </div>
         <div class="home-hero__card home-reveal home-reveal--delay-3">
-          <h3>공식 인증 트랙</h3>
-          <p>국내 유일의 PRINCE2 공인 ATO로서 1,000명+ Foundation, 500명+ Practitioner 합격자를 배출했습니다.</p>
-          <p>자격 취득 이후에도 갱신과 실무 상담을 지속 지원합니다.</p>
+          <h3>국내외 주요 기관들과 지속적 협력</h3>
+          <div>
+            <ul>
+              <li>국제적 인증기관인 Peoplecert의 공인 교육기관(ATO: Accredited Training Organization)로서 PRINCE2, ITIL 등 다양한 교육을 제공</li>
+              <li>글로벌 프로젝트 관리 전문가 단체인 PMI(Project Management Institute)와 과정개발, 세미나 등 다양한 협업</li>
+              <li>한국생산성본부(KPC)와 프로젝트 관리 분야 교육에 대해 20년 이상의 파트너십</li>
+            </ul>
+          </div>
         </div>
         <div class="home-hero__card home-reveal home-reveal--delay-3">
           <div class="home-hero__media">

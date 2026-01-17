@@ -782,6 +782,33 @@ body.is-home .home-hero__card {
   border: 1px solid var(--global-divider-color);
 }
 
+.home-hero__card--split {
+  display: block;
+}
+
+.home-hero__card-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 0.9fr);
+  gap: 1rem;
+  align-items: center;
+}
+
+.home-hero__card-body p {
+  margin-bottom: 0;
+}
+
+.home-hero__card-media {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home-hero__card-media img {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
+}
+
 .home-hero__card h3 {
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
@@ -810,6 +837,16 @@ body.is-home .home-hero__card {
   width: 110px;
   border-radius: 14px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 720px) {
+  .home-hero__card-body {
+    grid-template-columns: 1fr;
+  }
+
+  .home-hero__card-media img {
+    max-width: 240px;
+  }
 }
 
 .home-hero__media span {
