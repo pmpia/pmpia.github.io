@@ -616,6 +616,8 @@ body.is-home .home-hero {
   --home-ink: #f5f7fb;
   --home-muted: rgba(245, 247, 251, 0.72);
   --home-card: rgba(12, 16, 22, 0.78);
+  --home-accent: #9ad4ff;
+  --home-accent-strong: #1b5fd0;
   color: var(--home-ink);
   background-color: #0b1118;
   border-color: rgba(255, 255, 255, 0.14);
@@ -712,7 +714,7 @@ body.is-home .home-hero > * {
 }
 
 .home-btn--primary {
-  background: var(--home-accent);
+  background: var(--home-accent-strong, var(--home-accent));
   color: #fff;
 }
 

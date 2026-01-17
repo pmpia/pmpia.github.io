@@ -37,11 +37,11 @@ nav: false
 
       <div class="home-hero__stack">
         <div class="home-hero__card home-reveal home-reveal--delay-2">
-          <h3>교육 방향</h3>
+          <h3>실무 환경에 맞춘 다양한 교육방식 제공</h3>
           <ul>
-            <li>표준 템플릿과 케이스 스터디 기반의 실무 적용</li>
-            <li>조직 환경에 맞춘 프로세스 설계 및 실행 역량 강화</li>
-            <li>국제 표준(PMBOK, PRINCE2, Agile) 해석 역량 확보</li>
+            <li>PM, PMO, Agile, 국제자격(PMP/PRINCE2) <b>오프라인 집합교육</b></li>
+            <li>조직의 실무 니즈에 맞춘 <b>기업위탁교육</b></li>
+            <li>PRINCE2 Foundation & Practitioner 자격취득 <b>온라인교육</b></li>
           </ul>
         </div>
         <div class="home-hero__card home-reveal home-reveal--delay-3">
