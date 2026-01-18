@@ -47,47 +47,35 @@ nav_order: 4
 
 <section class="about-section">
   <div class="about-section__bar"></div>
-  <h2>PRINCE2 주요 연혁</h2>
-  <p>피엠피아의 PRINCE2 활동과 인증 성과를 연도별로 정리했습니다.</p>
-  <div class="company-timeline prince2-timeline">
+  <h2>회사 주요 연혁</h2>
+  <div class="company-timeline company-timeline--dark">
     {% assign items = site.data["prince2-timeline"] %}
+    {% assign prev_year = "" %}
 
     {% for item in items %}
+      {% assign date_parts = item.date | split: "-" %}
+      {% assign year = date_parts[0] %}
+      {% assign month = date_parts[1] %}
+
+      {% assign show_year = false %}
+      {% if year != prev_year %}
+        {% assign show_year = true %}
+        {% assign prev_year = year %}
+      {% endif %}
+
       <div class="company-item">
-        <div class="company-dot" aria-hidden="true"></div>
+        {% if show_year %}
+          <div class="company-dot" aria-hidden="true"></div>
+        {% endif %}
 
         <div class="company-row">
-          <span class="company-year">{{ item.date }}</span>
+          <span class="company-year {% if show_year %}show-year{% endif %}">
+            {% if show_year %}{{ year }}{% endif %}
+          </span>
 
-          <div class="company-name">
-            <div class="timeline-title">{{ item.title }}</div>
-            {% if item.text %}
-              <div class="timeline-summary">{{ item.text }}</div>
-            {% endif %}
-            {% if item.links and item.links.size > 0 %}
-              {% assign has_links = false %}
-              {% for link in item.links %}
-                {% if link.url and link.url != "" %}
-                  {% assign has_links = true %}
-                {% endif %}
-              {% endfor %}
+          <span class="company-month">{{ month }}</span>
 
-              {% if has_links %}
-                <div class="timeline-links">
-                  {% assign has_link = false %}
-                  {% for link in item.links %}
-                    {% if link.url and link.url != "" %}
-                      {% if has_link %}
-                        &nbsp;·&nbsp;
-                      {% endif %}
-                      <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
-                      {% assign has_link = true %}
-                    {% endif %}
-                  {% endfor %}
-                </div>
-              {% endif %}
-            {% endif %}
-          </div>
+          <span class="company-name">{{ item.title }}</span>
         </div>
       </div>
     {% endfor %}

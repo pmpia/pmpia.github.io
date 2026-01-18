@@ -2,6 +2,9 @@
 # Format: date (YYYY-MM), title, text (full original paragraph(s)).
 # No org field.
 
+- date: "2010-02"
+  title: "(주)피엠피아 설립"
+
 - date: "2012-03"
   title: "PRINCE2 Glossary & Foundation Exam 한국어 번역, APMG international"
   text: |
