@@ -94,6 +94,19 @@ $(document).ready(function () {
       }
     });
 
+    $(".contact-trigger").on("click", function (event) {
+      event.preventDefault();
+      event.stopPropagation();
+      openPopover();
+
+      if ($("#navbarNav").hasClass("show")) {
+        const panel = document.getElementById("nav-contact-panel");
+        if (panel) {
+          panel.scrollIntoView({ block: "end", behavior: "smooth" });
+        }
+      }
+    });
+
     $(document).on("click", function (event) {
       if (!contactNav.is(event.target) && contactNav.has(event.target).length === 0) {
         closePopover();

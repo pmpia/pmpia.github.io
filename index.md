@@ -160,6 +160,72 @@ nav: false
   </section>
 
   <section class="home-section home-reveal">
+    <div class="home-programs home-programs--blur">
+      <div class="home-cta home-cta--split">
+        <div>
+          <h2>기업위탁교육</h2>
+          <p class="home-lead home-lead--muted home-lead--compact">본 교육은 단순 이론 전달을 넘어 고객사의 실제 프로젝트 진단을 통해 맞춤형 실행 체계를 구축하는 데 목적이 있습니다. 사전 진단으로 조직의 의사결정 구조와 병목 구간을 분석한 뒤, PMBOK 등 글로벌 표준을 고객사의 업무 언어와 프로세스에 맞춰 재설계하여 커리큘럼을 구성합니다. 현업 과제 중심의 <strong>워크숍과 실무 템플릿(WBS, 리스크 관리 등)</strong>을 통해 즉각적인 적용을 지원하며, 직급별 맞춤 설계를 통해 조직 전체의 거버넌스와 협업 문화를 동시에 강화합니다. 단기 핵심 과정부터 심화 코칭까지 유연한 운영 방식을 제공하여, 불필요한 재작업을 줄이고 프로젝트의 예측 가능성과 실행력을 극대화하는 성과 중심의 교육을 경험해 보십시오.</p>
+          <div class="home-flow">
+            <div class="home-flow__item">
+              <span class="home-flow__step">01</span>
+              <div class="home-flow__body">
+                <h3>사전 진단 및 분석 <span>(Pre-Diagnosis)</span></h3>
+                <ul class="home-flow__list">
+                  <li>조직 성숙도, 의사결정 체계, 협업 방식 진단</li>
+                  <li>현업 프로젝트의 병목 구간 및 리스크 요인 파악</li>
+                </ul>
+              </div>
+            </div>
+            <div class="home-flow__item">
+              <span class="home-flow__step">02</span>
+              <div class="home-flow__body">
+                <h3>커리큘럼 맞춤 설계 <span>(Customizing)</span></h3>
+                <ul class="home-flow__list">
+                  <li>진단 결과를 바탕으로 고객사 업무 언어/프로세스 이식</li>
+                  <li>직급별(임원/PM/실무자) 맞춤 목표 및 사례 구성</li>
+                </ul>
+              </div>
+            </div>
+            <div class="home-flow__item">
+              <span class="home-flow__step">03</span>
+              <div class="home-flow__body">
+                <h3>실행 중심 교육 운영 <span>(Interactive Workshop)</span></h3>
+                <ul class="home-flow__list">
+                  <li>이론 중심 탈피, 현업 과제 기반의 워크숍 수행</li>
+                  <li>즉시 적용 가능한 실무 템플릿(WBS, 이슈로그 등) 활용</li>
+                </ul>
+              </div>
+            </div>
+            <div class="home-flow__item">
+              <span class="home-flow__step">04</span>
+              <div class="home-flow__body">
+                <h3>거버넌스 체계 정립 <span>(Governance Alignment)</span></h3>
+                <ul class="home-flow__list">
+                  <li>교육 중 도출된 해결책을 조직 표준 프랙티스로 정리</li>
+                  <li>보고 체계 및 승인 프로세스 등 운영 규칙 통일</li>
+                </ul>
+              </div>
+            </div>
+            <div class="home-flow__item">
+              <span class="home-flow__step">05</span>
+              <div class="home-flow__body">
+                <h3>현장 정착 및 사후 관리 <span>(Post-Support)</span></h3>
+                <ul class="home-flow__list">
+                  <li>교육 후 과제 수행 결과 리뷰 및 코칭(옵션)</li>
+                  <li>교육 만족도 및 조직 변화 성과 분석(ROI 측정)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="home-cta home-cta--compact home-cta--flow-gap">
+            <button class="home-btn home-btn--primary contact-trigger" type="button">문의하기</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-section home-reveal">
     <div class="home-split">
       <div>
         <h2>교육 제공 방식</h2>
