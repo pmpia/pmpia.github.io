@@ -880,7 +880,7 @@ body.is-home .home-hero__card {
 
 .home-card-grid .home-card {
   border: 0.4px solid var(--global-divider-color);
-  color: var(--home-accent);
+  color: var(--home-ink);
 }
 
 .home-card-grid .home-card--accent {
@@ -888,20 +888,20 @@ body.is-home .home-hero__card {
   border-top-color: var(--global-divider-color);
 }
 
-.home-card-grid .home-card h3,
-.home-card-grid .home-card p {
+.home-card-grid .home-card h3 {
   color: var(--home-accent);
   font-weight: 700;
   font-family: inherit;
-}
-
-.home-card-grid .home-card h3 {
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
 }
 
 .home-card-grid .home-card p {
-  font-size: 1.1rem;
+  color: var(--home-ink);
+  font-weight: 400;
+  font-family: inherit;
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
 }
 
 .home-card-grid .home-card h3.home-card__title--hero {

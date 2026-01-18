@@ -98,22 +98,24 @@ nav: false
     <div class="home-programs home-programs--blur">
       <div class="home-cta home-cta--split">
         <div>
-          <h2>교육제공방식</h2>
-          <p class="home-lead home-lead--muted home-lead--compact">설명 Text</p>
+          <h2>PMPIA 교육 제공방식</h2>
+          <p class="home-lead home-lead--muted home-lead--compact">
+            교육생과 기업의 필요성에 맞춰 오프라인 집체교육·온라인 교육·기업 위탁 교육 등 다양한 교육 방식을 제공합니다.
+          </p>
         </div>
       </div>
       <div class="home-card-grid">
         <div class="home-card home-card--accent">
           <h3>오프라인집체교육</h3>
-          <p>설명 Text</p>
+          <p>한국생산성본부(KPC, 서울 경복궁역 3번출구)와의 파트너십을 통한 다양한 PM과정 운영</p>
         </div>
         <div class="home-card home-card--accent">
           <h3>온라인교육</h3>
-          <p>설명 Text</p>
+          <p>오프라인 과정과 동일하게 구성된 이질감 없는 E-learning Couser</p>
         </div>
         <div class="home-card home-card--accent">
           <h3>기업위탁교육</h3>
-          <p>설명 Text</p>
+          <p>현재의 문제점을 분석하고 조직의 필요성에 맞춰 실무 중심으로 과정을 설계하여 맞춤형 커리큘럼을 제공</p>
         </div>
       </div>
     </div>
