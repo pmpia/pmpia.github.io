@@ -226,44 +226,48 @@ nav: false
   </section>
 
   <section class="home-section home-reveal">
-    <div class="home-split">
-      <div>
-        <h2>교육 제공 방식</h2>
-        <p class="home-lead home-lead--muted">
-          오프라인 집체교육, 온라인 과정, Microsoft Teams 기반 라이브 강좌,
-          기업 맞춤형 위탁 교육까지 목적과 환경에 맞춘 방식을 제공합니다.
-        </p>
-        <p class="home-text-muted">
-          표준 템플릿과 케이스 스터디를 중심으로 학습을 설계하고, 교육 이후 현장 적용까지
-          연결되는 실행 로드맵을 제공합니다.
-        </p>
+    <div class="home-community home-programs home-programs--blur">
+      <div class="home-cta home-cta--split">
+        <div>
+          <h2>커뮤니티 및 소셜</h2>
+        </div>
       </div>
-      <div class="home-card">
-        <h3>지원 범위</h3>
-        <p>조직 진단 → 커리큘럼 설계 → 워크샵 운영 → 현업 적용 피드백까지 단계별로 지원합니다.</p>
-        <p>PMO 구축, 프로젝트 거버넌스 강화, 국제 자격 취득까지 통합적으로 연결됩니다.</p>
+      <div class="home-community-grid">
+        <a class="home-community-card" href="https://cafe.naver.com/pmplaza" target="_blank" rel="noopener noreferrer">
+          <span class="home-community-card__icon">
+            <i class="fa-solid fa-mug-hot" aria-hidden="true"></i>
+          </span>
+          <span class="home-community-card__content">
+            <span class="home-community-card__title">피엠플라자</span>
+            <span class="home-community-card__desc">프로젝트 관리 전문 네이버 카페</span>
+          </span>
+        </a>
+        <a class="home-community-card" href="https://cafe.naver.com/prince2group" target="_blank" rel="noopener noreferrer">
+          <span class="home-community-card__icon">
+            <i class="fa-solid fa-mug-hot" aria-hidden="true"></i>
+          </span>
+          <span class="home-community-card__content">
+            <span class="home-community-card__title">PRINCE2 그룹</span>
+            <span class="home-community-card__desc">PRINCE2 네이버 카페</span>
+          </span>
+        </a>
+        <a class="home-community-card" href="https://www.facebook.com/pmpia" target="_blank" rel="noopener noreferrer">
+          <span class="home-community-card__icon">
+            <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+          </span>
+          <span class="home-community-card__content">
+            <span class="home-community-card__title">피엠피아 Facebook</span>
+          </span>
+        </a>
+        <a class="home-community-card" href="https://www.instagram.com/p/CW-PDlcsfpe/" target="_blank" rel="noopener noreferrer">
+          <span class="home-community-card__icon">
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+          </span>
+          <span class="home-community-card__content">
+            <span class="home-community-card__title">피엠피아 Instagram</span>
+          </span>
+        </a>
       </div>
-    </div>
-  </section>
-
-  <section class="home-section home-community home-reveal">
-    <h2>커뮤니티 &amp; 소셜</h2>
-    <p class="home-lead home-lead--muted">
-      프로젝트 관리 실무자 네트워크와 최신 정보를 공유하는 커뮤니티 채널을 운영합니다.
-    </p>
-    <div class="home-cta home-cta--compact">
-      <a class="home-btn home-btn--ghost" href="https://cafe.naver.com/pmplaza" target="_blank" rel="noopener noreferrer">
-        <i class="fa-solid fa-mug-hot fa-sm"></i> 프로젝트 관리 전문 네이버카페
-      </a>
-      <a class="home-btn home-btn--ghost" href="https://cafe.naver.com/prince2group" target="_blank" rel="noopener noreferrer">
-        <i class="fa-solid fa-mug-hot fa-sm"></i> PRINCE2 전문 네이버카페
-      </a>
-      <a class="home-btn home-btn--ghost" href="https://www.facebook.com/pmpia" target="_blank" rel="noopener noreferrer">
-        <i class="fa-brands fa-facebook fa-sm"></i> PMPIA Facebook
-      </a>
-      <a class="home-btn home-btn--ghost" href="https://www.instagram.com/pmpia/" target="_blank" rel="noopener noreferrer">
-        <i class="fa-brands fa-instagram fa-sm"></i> PMPIA Instagram
-      </a>
     </div>
   </section>
 </div>
