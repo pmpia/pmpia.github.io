@@ -30,6 +30,13 @@ $(document).ready(function () {
       target: navSelector,
       offset: 100,
     });
+    const contactHeading = document.querySelector(".nav-contact-panel h2");
+    if (contactHeading && contactHeading.id) {
+      const tocContactLink = $myNav.find(`a[href="#${contactHeading.id}"]`);
+      if (tocContactLink.length) {
+        tocContactLink.addClass("contact-trigger");
+      }
+    }
   }
 
   // add css to jupyter notebooks

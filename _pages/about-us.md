@@ -47,6 +47,51 @@ nav_order: 4
 
 <section class="about-section">
   <div class="about-section__bar"></div>
+  <h2>PRINCE2® Foundation &amp; Practitioner 온라인 과정</h2>
+  <div class="enterprise-training">
+    <div class="enterprise-training__block">
+      <p class="enterprise-training__lead">국내 최초·유일 PRINCE2® 자격 대비 온라인 교육</p>
+      <p>
+        2013년 국내에 처음으로 PRINCE2를 도입한 이후 10여 년간 100회 이상의 PRINCE2 전문
+        교육을 진행해온 노하우를 바탕으로, PRINCE2® Foundation &amp; Practitioner 자격 대비
+        온라인 과정을 개설했습니다.
+      </p>
+      <p>
+        PRINCE2 공인 강사(AT: Accredited Trainer)이자 PRINCE2 Ambassador인 정승원 대표가
+        직접 개발하고 강의하여 핵심을 체계적으로 정리합니다.
+      </p>
+    </div>
+
+    <div class="enterprise-training__list">
+      <div class="enterprise-training__list-item">
+        <span class="enterprise-training__index">01</span>
+        <div class="enterprise-training__content">
+          <h4>핵심 요약 + 실전 문제 풀이</h4>
+          <p>출제 포인트 중심의 정리와 해설로 합격 전략을 명확히 제공합니다.</p>
+        </div>
+      </div>
+
+      <div class="enterprise-training__list-item">
+        <span class="enterprise-training__index">02</span>
+        <div class="enterprise-training__content">
+          <h4>100% 온라인 학습</h4>
+          <p>시간과 장소의 제약 없이 원하는 속도로 학습할 수 있습니다.</p>
+        </div>
+      </div>
+
+      <div class="enterprise-training__list-item">
+        <span class="enterprise-training__index">03</span>
+        <div class="enterprise-training__content">
+          <h4>단계별 가이드와 실습 중심 구성</h4>
+          <p>명확한 학습 로드맵과 적용형 콘텐츠로 단기간 자격 취득을 목표로 합니다.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about-section">
+  <div class="about-section__bar"></div>
   <h2>회사 주요 연혁</h2>
   <div class="company-timeline company-timeline--dark">
     {% assign items = site.data["prince2-timeline"] %}

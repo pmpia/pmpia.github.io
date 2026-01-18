@@ -2,8 +2,8 @@
 layout: page
 title: 교육
 permalink: /classes/
-description: 실무 과정과 자격대비 과정을 포함합니다.
 nav: true
+hide_title: true
 display_categories:
   - 실무 과정
   - 자격대비 과정
@@ -13,63 +13,65 @@ toc:
 
 ## PMPIA 교육의 특장점
 
-<div class="education-cards">
-
-<div class="about-card" markdown="1">
-**단순 이론이 아니라 ‘적용 가능한 프랙티스’를 제공**
-
-- 실제 프로젝트 수행에 필요한 표준 템플릿과 사례를 중심으로 학습합니다.
-- 교육생의 프로젝트 환경에 맞춰 “우리 조직에서 어떻게 적용할지”까지 연결합니다.
-</div>
-
-<div class="about-card" markdown="1">
-**강의 중심이 아닌 Case Study 기반 워크샵**
-
-- 강의 중심이 아닌 워크샵 형태로 진행하며, ‘Learning by Doing’으로 체화합니다.
-- 주먹구구식 업무 방식에서 벗어나 재현 가능한 표준 프로세스를 구축하도록 돕습니다.
-</div>
-
-<div class="about-card" markdown="1">
-**국제 표준을 ‘우리 방식’으로 해석하는 역량 강화**
-
-- PMBOK Guide, PRINCE2, Agile 등 표준의 체계·프로세스를 이해하고, 조직·프로젝트 특성에 맞는 접근 방법론을 판단해 실무에 적용합니다.
-- 국제 표준을 그대로 ‘따르는 것’이 아니라, 우리 조직의 의사결정 구조·업무 흐름·성과 지표에 맞춰 프로세스와 산출물을 재설계하고 현장 실행력을 높일 수 있습니다.
-</div>
-
-<div class="about-card" markdown="1">
-**PeopleCert 공인 교육기관(ATO) 기반의 공식 교육 품질**
-
-- 피엠피아는 PRINCE2®, ITIL®, MSP®, MoP®, MoR®, P3O® 등 글로벌 베스트 프랙티스를 운영하는 PeopleCert(www.peoplecert.org)에 의해 인증된 공인 교육기관(ATO) 및 공인 시험기관(AEO)으로 국제적 기준에 부합하는 커리큘럼과 운영 체계 하에 교육을 제공합니다.
-- 국제 자격 과정에 요구되는 학습 목표와 평가 관점을 반영해, 수강생이 자격 학습과 실무 적용을 동시에 달성할 수 있도록 학습 경험을 설계합니다.
-</div>
-
-<div class="about-card" markdown="1">
-**25년+ 이상의 교육 진행에 따른 수치와 레퍼런스로 입증된 교육 신뢰도**
-
-- 피엠피아의 프로젝트 관리 교육은 25년+ 교육 노하우, 누적 수강 1만여 명 이상, 500회 이상 수업을 통해 효과와 만족도가 검증된 대표 과정입니다.
-- 매년 정규 집체 교육을 비롯해 온라인/라이브 과정으로 운영되며, 100여 개 이상의 국내 주요 기업이 채택한 경험을 바탕으로 최신의 프로젝트 관리 트렌드를 반영하여 교육의 내용과 운영방식을 지속적으로 개선해오고 있습니다.
-</div>
-
-<div class="about-card" markdown="1">
-**다양한 교육 형태로 제공되는 유연한 학습 경험**
-
-- 피엠피아는 정규 집체 교육, 온라인 교육, Microsoft Teams 기반 라이브 강좌, 기업 위탁 교육 등 다양한 운영 방식으로 교육을 제공하여, 조직의 교육 환경과 학습 목적에 맞춘 최적의 수강 방식을 선택할 수 있습니다.
-- 과정별 난이도·일정·참여 인원·현업 적용 과제(케이스/워크샵)를 유연하게 설계해, 개인 학습부터 조직 단위 역량 내재화까지 일관된 품질로 지원합니다.
-</div>
-
-<div class="about-card" markdown="1">
-**글로벌 표준 네트워크와 국내 대표 교육 파트너십으로 검증된 프로젝트 관리 교육**
-
-- 피엠피아는 프로젝트 관리 분야의 글로벌 대표 기관인 미국 PMI(Project Management Institute) 및 유럽 기반의 국제 인증기관 PeopleCert와의 협력 체계를 바탕으로, 국제 표준과 최신 베스트 프랙티스를 교육 과정에 반영합니다.
-- 동시에 **국내 No.1 직무 교육기관 한국생산성본부(KPC)**와 25년 이상 파트너십을 유지하며, 연간 정규 교육 운영부터 기업 맞춤형 과정까지 안정적인 제공 체계를 갖추고 폭넓은 학습 수요를 지원해 왔습니다.
-</div>
-
-<div class="about-card" markdown="1">
-**PMP PDU 인정 및 영문 수료증 제공**
-
-- PMP 응시·갱신에 필요한 PDU 인정(영문 수료증 제공)으로 학습 성과를 공식적으로 관리할 수 있습니다.
-</div>
-
+<div class="enterprise-training">
+  <div class="enterprise-training__list">
+    <div class="enterprise-training__list-item">
+      <span class="enterprise-training__index">01</span>
+      <div class="enterprise-training__content">
+        <h4>적용 가능한 프랙티스 제공</h4>
+        <p>실제 프로젝트 수행에 필요한 표준 템플릿과 사례를 중심으로 학습하고, 교육생의 프로젝트 환경에 맞춰 조직 내 적용 방법까지 연결합니다.</p>
+      </div>
+    </div>
+    <div class="enterprise-training__list-item">
+      <span class="enterprise-training__index">02</span>
+      <div class="enterprise-training__content">
+        <h4>Case Study 기반 워크숍 운영</h4>
+        <p>강의 중심 전달이 아닌 워크숍 형태로 진행해 Learning by Doing을 체화하며, 재현 가능한 표준 프로세스 구축을 지원합니다.</p>
+      </div>
+    </div>
+    <div class="enterprise-training__list-item">
+      <span class="enterprise-training__index">03</span>
+      <div class="enterprise-training__content">
+        <h4>국제 표준의 실무 적용 역량</h4>
+        <p>PMBOK Guide, PRINCE2, Agile 등 표준의 체계와 프로세스를 이해한 뒤 조직·프로젝트 특성에 맞는 접근법을 판단해 실무에 적용합니다. 국제 표준을 그대로 따르기보다 의사결정 구조·업무 흐름·성과 지표에 맞춰 프로세스와 산출물을 재설계합니다.</p>
+      </div>
+    </div>
+    <div class="enterprise-training__list-item">
+      <span class="enterprise-training__index">04</span>
+      <div class="enterprise-training__content">
+        <h4>PeopleCert 공인 교육 품질</h4>
+        <p>PRINCE2®, ITIL®, MSP®, MoP®, MoR®, P3O® 등 글로벌 베스트 프랙티스를 운영하는 PeopleCert의 공인 교육기관(ATO) 및 공인 시험기관(AEO)으로 국제 기준에 부합하는 커리큘럼을 제공합니다. 국제 자격 과정의 학습 목표와 평가 관점을 반영해 자격 학습과 실무 적용을 동시에 달성하도록 설계합니다.</p>
+      </div>
+    </div>
+    <div class="enterprise-training__list-item">
+      <span class="enterprise-training__index">05</span>
+      <div class="enterprise-training__content">
+        <h4>25년+ 레퍼런스로 입증된 신뢰도</h4>
+        <p>25년+ 교육 노하우, 누적 수강 1만여 명, 500회 이상 수업을 통해 효과와 만족도가 검증된 대표 과정입니다. 매년 정규 집체 교육과 온라인/라이브 과정을 운영하며 100여 개 이상의 국내 주요 기업 사례를 바탕으로 내용을 지속적으로 개선합니다.</p>
+      </div>
+    </div>
+    <div class="enterprise-training__list-item">
+      <span class="enterprise-training__index">06</span>
+      <div class="enterprise-training__content">
+        <h4>유연한 학습 경험 제공</h4>
+        <p>정규 집체 교육, 온라인 교육, Microsoft Teams 기반 라이브 강좌, 기업 위탁 교육 등 다양한 운영 방식으로 조직의 교육 환경과 목적에 맞는 최적의 수강 방식을 제공합니다. 난이도·일정·참여 인원·현업 적용 과제를 유연하게 설계해 개인 학습부터 조직 단위 역량 내재화까지 지원합니다.</p>
+      </div>
+    </div>
+    <div class="enterprise-training__list-item">
+      <span class="enterprise-training__index">07</span>
+      <div class="enterprise-training__content">
+        <h4>글로벌 표준 네트워크와 국내 파트너십</h4>
+        <p>미국 PMI(Project Management Institute)와 PeopleCert 등 글로벌 기관과의 협력 체계를 기반으로 국제 표준과 최신 베스트 프랙티스를 과정에 반영합니다. 동시에 한국생산성본부(KPC)와 25년 이상 파트너십을 유지하며 안정적인 교육 운영 체계를 갖추고 있습니다.</p>
+      </div>
+    </div>
+    <div class="enterprise-training__list-item">
+      <span class="enterprise-training__index">08</span>
+      <div class="enterprise-training__content">
+        <h4>PMP PDU 인정 및 영문 수료증 제공</h4>
+        <p>PMP 응시·갱신에 필요한 PDU를 인정하고 영문 수료증을 제공해 학습 성과를 공식적으로 관리할 수 있습니다.</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 ---
@@ -117,7 +119,7 @@ toc:
 ## 오프라인 교육
 
 <div class="classes">
-  <p class="classes-intro">실무 과정과 자격 대비 과정을 한 곳에서 확인하세요.</p>
+  <p class="classes-intro">한국생산성본부(KPC)와의 파트너십을 통해 다양한 PM과정들을 제공하고 있습니다</p>
   {% if page.display_categories %}
     <div class="classes-category-grid">
       {% for category in page.display_categories %}
@@ -287,28 +289,64 @@ toc:
 ---
 ## 온라인 교육 
 
-2013년 국내에 처음으로 PRINCE2를 도입한 이후 10여년 이상 100회 이상의 PRINCE2 전문 교육을 진행해온 노하우를 기반으로 국내 최초, 유일의 PRINCE2® Foundation & Practitioner 자격대비 온라인 교육을 개설하였습니다. PRINCE2 공인 강사(AT:Accredited Trainer)이자 PRINCE2 Ambassador인 정승윤 대표가 직접 개발 및 수업을 진행하는 과정으로 핵심을 정리하고 실전 문제 풀이 및 해설을 통해 성공적인 합격을 지원합니다. 시간과 장소의 제약 없이 학습 가능한 100% 온라인 과정으로, 명확한 단계별 가이드와 실습 중심 콘텐츠를 통해 단기간에 자격 취득을 목표로 할 수 있습니다.
+<div class="enterprise-training">
+  <div class="enterprise-training__block">
+    <p class="enterprise-training__lead">국내 최초·유일 PRINCE2® Foundation &amp; Practitioner 온라인 과정</p>
+    <p>
+      2013년 국내에 처음으로 PRINCE2를 도입한 이후 10여 년간 100회 이상의 PRINCE2 전문
+      교육을 운영해온 노하우를 바탕으로, 자격 대비 온라인 과정을 개설했습니다.
+    </p>
+    <p>
+      PRINCE2 공인 강사(AT: Accredited Trainer)이자 PRINCE2 Ambassador인 정승원 대표가
+      직접 개발하고 강의하며, 시험에 필요한 핵심을 체계적으로 정리합니다.
+    </p>
+  </div>
+
+  <div class="enterprise-training__block">
+    <p>
+      이론 요약과 실전 문제 풀이·해설을 통해 합격 전략을 구체화하고, 단계별 가이드와
+      실습 중심 콘텐츠로 단기간 자격 취득을 목표로 설계했습니다.
+    </p>
+    <p>
+      100% 온라인 과정으로 시간과 장소의 제약 없이 학습할 수 있어, 직장인도 안정적으로
+      학습을 이어갈 수 있습니다.
+    </p>
+  </div>
+</div>
+
+<div class="classes-box online-education-box">
+  <div class="enterprise-training__list">
+    <div class="enterprise-training__list-item">
+      <span class="enterprise-training__index">01</span>
+      <div class="enterprise-training__content">
+        <h4>완벽한 시험 대비</h4>
+        <p>PRINCE2 7 자격시험 핵심 이론과 실전 문제 풀이·해설로 합격에 필요한 역량을 체계적으로 정리합니다.</p>
+      </div>
+    </div>
+    <div class="enterprise-training__list-item">
+      <span class="enterprise-training__index">02</span>
+      <div class="enterprise-training__content">
+        <h4>오프라인과 동일한 학습 경험</h4>
+        <p>PeopleCert의 Official E-learning Courses는 일반 개념 중심의 슬라이드형 콘텐츠로 제공되며, 영어로만 수강 가능합니다. 본 과정은 자격시험 대비에 최적화된 구성으로 국내 오프라인 교육과 동일한 흐름과 방식으로 설계해 온라인에서도 이질감을 최소화했습니다.</p>
+      </div>
+    </div>
+    <div class="enterprise-training__list-item">
+      <span class="enterprise-training__index">03</span>
+      <div class="enterprise-training__content">
+        <h4>학습 제약 최소화</h4>
+        <p>일부 온라인 교육의 과도한 시청 제한(재생 속도 제한, 건너뛰기 차단 등)을 지양합니다. $680 응시료의 국제 자격 대비 과정인 만큼 학습자의 책임감을 존중하며, 원하는 구간을 반복·복습할 수 있는 유연성을 제공합니다.</p>
+      </div>
+    </div>
+    <div class="enterprise-training__list-item">
+      <span class="enterprise-training__index">04</span>
+      <div class="enterprise-training__content">
+        <h4>넉넉한 수강 기간(90일)</h4>
+        <p>교육 시작 후 3개월(90일) 동안 동영상 강좌를 수강할 수 있어 바쁜 직장인도 여유 있게 학습할 수 있습니다.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="online-education-cta">
   <a class="theme-cta-button" href="https://cafe.naver.com/prince2group/2809">PRINCE2 온라인 교육 더 알아보기</a>
-</div>
-
-<div class="classes-box online-education-box" markdown="1">
-
-#### 01. 완벽한 시험대비
-
-PRINCE2 7 자격 시험을 위한 핵심 이론과 실전 문제 풀이와 해설을 통해 완벽한 대비가 가능합니다.
-
-#### 02. 오프라인 과정과 동일하게 진행되는 이질감 없는 구성
-
-Peoplecert에서 판매 중인 공식 Official E-learning Courses는 파워포인트 형식으로 시험에 특화되지 않은 일반 개념 위주의 설명을 제공하고, 한국이 아닌 영어로만 수강할 수 있습니다. 본 교육은 자격 시험에 최적화된 교육 제공을 통한 합격을 최우선 목표로 구성하며, 국내에서 제공되는 오프라인 교육과 유사한 형태로 구성하여 응시를 준비하시는 교육생분들에게 익숙하고 최적화된 형태로 제공됩니다. 또한 오프라인으로 진행하는 교육과 완전히 동일한 방식으로 진행하여 온라인 교육이라도 이질감을 최소화하도록 구성되었습니다.
-
-#### 03. 학습 진도 체크 등의 자의적인 제약의 최소화
-
-직무와 관련된 일부 온라인 교육의 경우 학습을 강제하기 위해 매일 일정 시간 이상 시청해야 하거나 재생 속도를 빠르게 하는 것을 막거나 건너뛰기 등의 기능을 제한해 학습에 불편함을 주는 경우들이 있습니다. 본 교육은 $680 응시료를 지불해야 하는 비싼 국제 자격에 대한 대비 과정이므로 모든 교육생들이 각자 성인으로서의 책임감을 가지고 최선을 다해 학습하신다는 믿음을 기반으로 구성했습니다. 언제 어디서든 교육생 본인이 원하는 부분을 몇 번이든 돌려보며 복습할 수 있도록 유연성을 제공합니다.
-
-#### 04. 3개월(90일)이라는 넉넉한 교육 수강 기간
-
-교육 시작 후 3개월(90일) 동안 동영상 강좌의 시청이 가능하여 바쁜 직장인들이 여유를 가지고 충분히 학습할 수 있는 시간을 제공합니다.
-
 </div>
