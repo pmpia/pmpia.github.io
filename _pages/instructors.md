@@ -7,11 +7,6 @@ nav_order: 2
 subtitle:
 hide_site_title: true
 
-profile:
-  align: right
-  image: swchung.jpeg
-  image_circular: false # crops the image to make it circular
-
 ---
 <div class="instructors-layout">
   <nav class="instructors-menu" aria-label="강사 소개 섹션">
@@ -25,31 +20,60 @@ profile:
     <a href="#instructor-community">커뮤니티·SNS</a>
   </nav>
   <div class="instructors-content" markdown="1">
-### 정승원, 피엠피아 대표 {#instructor-overview}
+<div class="instructor-profile">
+  <h3 class="instructor-title" id="instructor-overview">정승원 (주) 피엠피아 대표</h3>
+  <div class="instructor-header">
+    <div class="instructor-header__left">
+      <div class="instructor-quick-grid">
+        <section class="instructor-card" aria-labelledby="instructor-education">
+          <h4 id="instructor-education">학력</h4>
+          <ul>
+            <li>연세대학교 기계설계학과 졸</li>
+          </ul>
+        </section>
+        <section class="instructor-card" aria-labelledby="instructor-career">
+          <h4 id="instructor-career">경력</h4>
+          <ul>
+            <li>(전) Project Manager, Proctor &amp; Gamble (P&amp;G)</li>
+            <li>(전) Project Management Officer, 삼성SDS</li>
+            <li>(현) 대표, ㈜피엠피아 – 프로젝트 관리 교육 및 컨설팅</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    <div class="instructor-hero__media">
+      <img src="{{ '/assets/img/swchung.jpeg' | relative_url }}" alt="정승원 대표 사진">
+    </div>
+  </div>
+  <div class="instructor-card-grid">
+    <section class="instructor-card" aria-labelledby="instructor-awards">
+      <h4 id="instructor-awards">수상 내역</h4>
+      <ul>
+        <li>Microsoft Project MVP, Microsoft, 2006년부터 13년 연속 수상</li>
+        <li>PRINCE2 Approved Trainer, PRINCE2 공인 강사, Axelos, 2013-현재</li>
+        <li>Peoplecert Ambassador, 프로젝트 관리 부문, Peoplecert, 2024</li>
+      </ul>
+    </section>
+    <section class="instructor-card instructor-card--wide" aria-labelledby="instructor-teaching">
+      <h4 id="instructor-teaching">강의 이력</h4>
+      <ul>
+        <li>삼성 멀티캠퍼스, 프로젝트 관리 부문 강사 2002-2008</li>
+        <li>한국 생산성 본부, 프로젝트 관리 부문 강사 2002-현재</li>
+        <li>100여개 이상의 기업을 대상으로 20여년 이상 프로젝트 관리 전문 교육 운영</li>
+      </ul>
+    </section>
+    <section class="instructor-card" aria-labelledby="instructor-publications">
+      <h4 id="instructor-publications">Publications</h4>
+      <ul>
+        <li>PM+P, 소동출판사, PMP 시험대비 수험서</li>
+      </ul>
+    </section>
+  </div>
+</div>
+
 <br>
-#### 학력 {#instructor-education}
-- 연세대학교 기계설계학과 졸
-
-#### 경력 {#instructor-career}
-- (전) Project Manager, Proctor & Gamble (P&G)
-- (전) Project Management Officer, 삼성SDS
-- (현) 대표, ㈜피엠피아 – 프로젝트 관리 교육 및 컨설팅
-
-#### 수상 내역 {#instructor-awards}
-- Microsoft Project MVP, Microsoft, 2006년부터 13년 연속 수상
-- PRINCE2 Approved Trainer, PRINCE2 공인 강사, Axelos, 2013-현재
-- Peoplecert Ambassador, 프로젝트 관리 부문, Peoplecert, 2024
-
-#### 강의 이력 {#instructor-teaching}
-- 삼성 멀티캠퍼스, 프로젝트 관리 부문 강사 2002-2008
-- 한국 생산성 본부, 프로젝트 관리 부문 강사 2002-현재
-- 100여개 이상의 기업을 대상으로 20여년 이상 프로젝트 관리 전문 교육 운영
-
-#### Publications {#instructor-publications}
-- PM+P, 소동출판사, PMP 시험대비 수험서
-
-#### 주요 강의 이력 {#instructor-timeline}
-<div class="company-timeline">
+<h3 class="instructor-section-title" id="instructor-timeline">주요 강의 이력</h3>
+<div class="company-timeline company-timeline--dark">
   {% assign items = site.data["companies-timeline"] %}
   {% assign prev_year = "" %}
 
