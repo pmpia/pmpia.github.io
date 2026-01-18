@@ -226,6 +226,50 @@ nav: false
   </section>
 
   <section class="home-section home-reveal">
+    <div class="home-programs home-programs--blur">
+      <div class="home-cta home-cta--split">
+        <div>
+          <h2>온라인교육</h2>
+          <p class="home-lead home-lead--muted home-lead--compact">국내 유일의 PRINCE2® Foundation &amp; Practitioner 통합 온라인 과정 개설을 통해 핵심 이론 정리부터 실전 문제 풀이까지 체계적인 커리큘럼을 통해 수강생의 단기 합격을 완벽하게 지원합니다.</p>
+        </div>
+      </div>
+      <ul class="home-feature-list">
+        <li class="home-feature">
+          <span class="home-feature__num">01</span>
+          <div class="home-feature__content">
+            <h3>시험 최적화 커리큘럼</h3>
+            <p>최신 PRINCE2 7 핵심 이론부터 실전 문제 풀이 및 상세 해설까지, 오직 '합격'에 초점을 맞춘 완벽한 대비가 가능합니다.</p>
+          </div>
+        </li>
+        <li class="home-feature">
+          <span class="home-feature__num">02</span>
+          <div class="home-feature__content">
+            <h3>오프라인과 동일한 몰입감 (국문 진행)</h3>
+            <p>영어 기반의 일반적인 공식 e-Learning과 달리, 국내 오프라인 전문 교육의 구성을 그대로 온라인에 옮겨와 한국어 강의로 이질감 없이 익숙한 학습 환경을 제공합니다.</p>
+          </div>
+        </li>
+        <li class="home-feature">
+          <span class="home-feature__num">03</span>
+          <div class="home-feature__content">
+            <h3>학습 편의성을 극대화한 자율 시청</h3>
+            <p>배속 제한이나 강제 진도 체크 등 학습을 방해하는 인위적 제약을 없앴습니다. 성인 학습자의 책임감을 존중하며, 본인의 페이스에 맞춰 필요한 부분을 자유롭게 반복 학습할 수 있습니다.</p>
+          </div>
+        </li>
+        <li class="home-feature">
+          <span class="home-feature__num">04</span>
+          <div class="home-feature__content">
+            <h3>90일간의 넉넉한 수강 기간</h3>
+            <p>3개월(90일)의 충분한 수강 기간을 제공하여, 업무로 바쁜 직장인들도 조급함 없이 여유롭게 학습하고 자격증을 취득할 수 있습니다.</p>
+          </div>
+        </li>
+      </ul>
+      <div class="home-cta home-cta--compact home-cta--flow-gap">
+        <a class="home-btn home-btn--primary" href="https://prince2.co.kr/" target="_blank" rel="noopener noreferrer">PRINCE2 온라인 교육 알아보기</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-section home-reveal">
     <div class="home-community home-programs home-programs--blur">
       <div class="home-cta home-cta--split">
         <div>
