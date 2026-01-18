@@ -1,6 +1,6 @@
 ---
 layout: about
-title: 대표 강사 소개
+title: 강사소개
 permalink: /instructors/
 nav: true
 nav_order: 2
@@ -70,6 +70,12 @@ hide_site_title: true
     </section>
   </div>
 </div>
+
+<p class="instructor-press-link">
+  <a href="https://www.forbeskorea.co.kr/news/articleView.html?idxno=281604" target="_blank" rel="noopener noreferrer">
+    PM으로 기업의 군살 뺀다 - 정승원 대표 2009.12.10 Forbes
+  </a>
+</p>
 
 <br>
 <h3 class="instructor-section-title" id="instructor-timeline">주요 강의 이력</h3>

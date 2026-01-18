@@ -116,7 +116,55 @@
                     {% endif %}
                   </a>
                 </li>
-                {% if p.title == '회사 소개' %}
+                {% if p.title == '교육' %}
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://prince2.co.kr/" target="_blank" rel="noopener noreferrer">
+                      PRINCE2
+                    </a>
+                  </li>
+                {% endif %}
+                {% if p.title == '회사소개' %}
+                  <li class="nav-item community-nav">
+                    <button
+                      class="nav-link community-nav__button"
+                      type="button"
+                      aria-expanded="false"
+                      aria-controls="community-nav-popover"
+                      aria-haspopup="dialog"
+                    >
+                      <i class="fa-solid fa-users" aria-hidden="true"></i>
+                      <span>커뮤니티</span>
+                    </button>
+                    <div
+                      class="community-nav__popover"
+                      id="community-nav-popover"
+                      role="dialog"
+                      aria-label="커뮤니티"
+                      aria-hidden="true"
+                    >
+                      <p class="community-nav__text">
+                        프로젝트 관리 전문가들의 소통을 위해 다양한 채널에서 교류하고 있습니다.
+                      </p>
+                      <div class="community-nav__actions">
+                        <a class="community-nav__link" href="https://cafe.naver.com/pmplaza" target="_blank" rel="noopener noreferrer">
+                          <i class="fa-solid fa-mug-hot" aria-hidden="true"></i>
+                          <span>피엠플라자</span>
+                        </a>
+                        <a class="community-nav__link" href="https://cafe.naver.com/prince2group" target="_blank" rel="noopener noreferrer">
+                          <i class="fa-solid fa-mug-hot" aria-hidden="true"></i>
+                          <span>PRINCE2 그룹</span>
+                        </a>
+                        <a class="community-nav__link" href="https://www.facebook.com/pmpia" target="_blank" rel="noopener noreferrer">
+                          <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                          <span>피엠피아 Facebook</span>
+                        </a>
+                        <a class="community-nav__link" href="https://www.instagram.com/p/CW-PDlcsfpe/" target="_blank" rel="noopener noreferrer">
+                          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                          <span>피엠피아 Instagram</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
                   <li class="nav-item contact-nav">
                     <button
                       class="nav-link contact-nav__button"
@@ -183,6 +231,28 @@
             <a class="nav-contact-panel__link" href="http://pf.kakao.com/_xaKyxlK">
               <i class="fa-solid fa-comment-dots" aria-hidden="true"></i>
               <span>피엠피아 공식 카카오톡 채널</span>
+            </a>
+          </div>
+        </div>
+        <div class="nav-community-panel" id="nav-community-panel" aria-label="커뮤니티">
+          <h2>커뮤니티</h2>
+          <p>프로젝트 관리 전문가들의 소통을 위해 다양한 채널에서 교류하고 있습니다.</p>
+          <div class="nav-community-panel__actions">
+            <a class="nav-community-panel__link" href="https://cafe.naver.com/pmplaza" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-mug-hot" aria-hidden="true"></i>
+              <span>피엠플라자</span>
+            </a>
+            <a class="nav-community-panel__link" href="https://cafe.naver.com/prince2group" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-mug-hot" aria-hidden="true"></i>
+              <span>PRINCE2 그룹</span>
+            </a>
+            <a class="nav-community-panel__link" href="https://www.facebook.com/pmpia" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+              <span>피엠피아 Facebook</span>
+            </a>
+            <a class="nav-community-panel__link" href="https://www.instagram.com/p/CW-PDlcsfpe/" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+              <span>피엠피아 Instagram</span>
             </a>
           </div>
         </div>

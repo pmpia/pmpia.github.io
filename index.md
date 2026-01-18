@@ -17,7 +17,7 @@ nav: false
         </p>
         <div class="home-cta">
           <a class="home-btn home-btn--primary" href="{{ '/classes/' | relative_url }}">교육 과정 보기</a>
-          <a class="home-btn home-btn--ghost" href="{{ '/about-us/' | relative_url }}">회사 소개</a>
+          <a class="home-btn home-btn--ghost" href="{{ '/about-us/' | relative_url }}">About Us</a>
         </div>
         <div class="home-metrics">
           <div class="home-metric">
@@ -51,7 +51,7 @@ nav: false
         <div class="home-hero__card home-reveal home-reveal--delay-3">
           <div class="home-hero__media">
             <div>
-              <h3>대표 강사 소개</h3>
+              <h3>강사소개</h3>
               <span>정승원 대표 · Peoplecert Ambassador</span><br>
               <a class="home-btn home-btn--ghost" href="{{ '/instructors/' | relative_url }}">프로필 보기</a>
             </div>
