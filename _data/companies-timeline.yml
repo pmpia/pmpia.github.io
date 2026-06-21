@@ -466,3 +466,12 @@
 - year: "2025"
   month: "11"
   company: ["현대제철"]
+- year: "2026"
+  month: "01"
+  company: ["한국국제협력단(KOICA)"]
+- year: "2026"
+  month: "02"
+  company: ["B"]
+- year: "2026"
+  month: "03"
+  company: ["C"]
